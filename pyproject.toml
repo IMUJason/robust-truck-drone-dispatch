@@ -1,0 +1,37 @@
+[build-system]
+requires = ["setuptools>=64"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "dagcd"
+version = "0.1.0"
+description = "Benchmark for dynamic truck-drone delivery dispatch under weather, airspace, and demand uncertainty: rolling-horizon simulator, exact feasibility checker, re-optimization oracles, adversarial regret audit, and LLM heuristic evolution"
+readme = "README.md"
+requires-python = ">=3.10"
+license = {text = "MIT"}
+authors = [{name = "Jin Xin Cao", email = "imucjx@163.com"}]
+keywords = ["truck-drone routing", "dynamic vehicle routing", "benchmark",
+            "robust optimization", "heuristic evolution"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Science/Research",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Scientific/Engineering",
+]
+
+# Pure standard library; no hard dependencies.
+dependencies = []
+
+[project.optional-dependencies]
+cplex = ["docplex"]   # CPLEX backend for the MIP oracle (requires a CPLEX installation)
+highs = ["highspy"]   # HiGHS (Apache-2.0) backend for the MIP oracle
+
+[project.urls]
+Homepage = "https://github.com/IMUJason/robust-truck-drone-dispatch"
+
+[tool.setuptools.packages.find]
+where = ["src"]

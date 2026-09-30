@@ -1,0 +1,308 @@
+{
+  "anchor": {
+    "lat": 22.55,
+    "lon": 113.93
+  },
+  "m_per_deg_lat": 111319.49079327358,
+  "m_per_deg_lon": 102808.58433542897,
+  "coordinate_scaling": "scenario x,y = local_m * circuity (road-equivalent)",
+  "nodes": [
+    {
+      "id": 0,
+      "name": "Depot 前海综合保税区物流园",
+      "kind": "depot",
+      "lat": 22.532,
+      "lon": 113.895,
+      "local_x_m": -3598.3,
+      "local_y_m": -2003.751,
+      "scenario_x": -6203.608491351398,
+      "scenario_y": -3454.543570443337
+    },
+    {
+      "id": 1,
+      "name": "Vertiport 南山科技园(深大北门)",
+      "kind": "vertiport",
+      "lat": 22.5385,
+      "lon": 113.951,
+      "local_x_m": 2158.98,
+      "local_y_m": -1280.174,
+      "scenario_x": 3722.165094807313,
+      "scenario_y": -2207.0695033390257
+    },
+    {
+      "id": 2,
+      "name": "Vertiport 西乡(西乡地铁站周边空地)",
+      "kind": "vertiport",
+      "lat": 22.591,
+      "lon": 113.864,
+      "local_x_m": -6785.367,
+      "local_y_m": 4564.099,
+      "scenario_x": -11698.233155116613,
+      "scenario_y": 7868.682577120707
+    },
+    {
+      "id": 3,
+      "name": "Vertiport 宝安中心(宝安体育馆东侧广场)",
+      "kind": "vertiport",
+      "lat": 22.5535,
+      "lon": 113.884,
+      "local_x_m": -4729.195,
+      "local_y_m": 389.618,
+      "scenario_x": -8153.314017203328,
+      "scenario_y": 671.7168053637549
+    },
+    {
+      "id": 4,
+      "name": "深圳大学粤海校区",
+      "kind": "customer",
+      "lat": 22.5327,
+      "lon": 113.9382,
+      "local_x_m": 843.03,
+      "local_y_m": -1925.827,
+      "scenario_x": 1453.4168465426085,
+      "scenario_y": -3320.2002093708584
+    },
+    {
+      "id": 5,
+      "name": "科技园南区(虚拟大学园)",
+      "kind": "customer",
+      "lat": 22.5308,
+      "lon": 113.956,
+      "local_x_m": 2673.023,
+      "local_y_m": -2137.334,
+      "scenario_x": 4608.3948792875235,
+      "scenario_y": -3684.846475139696
+    },
+    {
+      "id": 6,
+      "name": "西丽(留仙大道沿线)",
+      "kind": "customer",
+      "lat": 22.586,
+      "lon": 113.965,
+      "local_x_m": 3598.3,
+      "local_y_m": 4007.502,
+      "scenario_x": 6203.60849134888,
+      "scenario_y": 6909.087140885992
+    },
+    {
+      "id": 7,
+      "name": "翻身片区",
+      "kind": "customer",
+      "lat": 22.5655,
+      "lon": 113.887,
+      "local_x_m": -4420.769,
+      "local_y_m": 1725.452,
+      "scenario_x": -7621.576146516209,
+      "scenario_y": 2974.7458523259797
+    },
+    {
+      "id": 8,
+      "name": "坪洲",
+      "kind": "customer",
+      "lat": 22.569,
+      "lon": 113.86,
+      "local_x_m": -7196.601,
+      "local_y_m": 2115.07,
+      "scenario_x": -12407.216982700278,
+      "scenario_y": 3646.462657689734
+    },
+    {
+      "id": 9,
+      "name": "固戍",
+      "kind": "customer",
+      "lat": 22.607,
+      "lon": 113.845,
+      "local_x_m": -8738.73,
+      "local_y_m": 6345.211,
+      "scenario_x": -15065.906336135871,
+      "scenario_y": 10939.387973069885
+    },
+    {
+      "id": 10,
+      "name": "南山海岸城",
+      "kind": "customer",
+      "lat": 22.521,
+      "lon": 113.94,
+      "local_x_m": 1028.086,
+      "local_y_m": -3228.265,
+      "scenario_x": 1772.4595689553835,
+      "scenario_y": -5565.653530158483
+    },
+    {
+      "id": 11,
+      "name": "蛇口网谷",
+      "kind": "customer",
+      "lat": 22.4955,
+      "lon": 113.918,
+      "local_x_m": -1233.703,
+      "local_y_m": -6066.912,
+      "scenario_x": -2126.951482748475,
+      "scenario_y": -10459.59025495321
+    },
+    {
+      "id": 12,
+      "name": "前海桂湾(深港基金小镇)",
+      "kind": "customer",
+      "lat": 22.538,
+      "lon": 113.892,
+      "local_x_m": -3906.726,
+      "local_y_m": -1335.834,
+      "scenario_x": -6735.346362038517,
+      "scenario_y": -2303.0290469622246
+    },
+    {
+      "id": 13,
+      "name": "宝安滨海文化公园",
+      "kind": "customer",
+      "lat": 22.5475,
+      "lon": 113.89,
+      "local_x_m": -4112.343,
+      "local_y_m": -278.299,
+      "scenario_x": -7089.83827582909,
+      "scenario_y": -479.7977181173574
+    },
+    {
+      "id": 14,
+      "name": "留仙洞总部基地",
+      "kind": "customer",
+      "lat": 22.578,
+      "lon": 113.943,
+      "local_x_m": 1336.512,
+      "local_y_m": 3116.946,
+      "scenario_x": 2304.197439642502,
+      "scenario_y": 5373.734442911403
+    },
+    {
+      "id": 15,
+      "name": "万科云城",
+      "kind": "customer",
+      "lat": 22.576,
+      "lon": 113.952,
+      "local_x_m": 2261.789,
+      "local_y_m": 2894.307,
+      "scenario_x": 3899.411051703859,
+      "scenario_y": 4989.896268417926
+    },
+    {
+      "id": 16,
+      "name": "深圳湾科技生态园",
+      "kind": "customer",
+      "lat": 22.526,
+      "lon": 113.949,
+      "local_x_m": 1953.363,
+      "local_y_m": -2671.668,
+      "scenario_x": 3367.67318101674,
+      "scenario_y": -4606.058093924449
+    },
+    {
+      "id": 17,
+      "name": "大新(大新地铁站)",
+      "kind": "customer",
+      "lat": 22.536,
+      "lon": 113.918,
+      "local_x_m": -1233.703,
+      "local_y_m": -1558.473,
+      "scenario_x": -2126.951482748475,
+      "scenario_y": -2686.8672214557014
+    },
+    {
+      "id": 18,
+      "name": "南头古城",
+      "kind": "customer",
+      "lat": 22.541,
+      "lon": 113.92,
+      "local_x_m": -1028.086,
+      "local_y_m": -1001.875,
+      "scenario_x": -1772.459568957902,
+      "scenario_y": -1727.2717852216686
+    },
+    {
+      "id": 19,
+      "name": "沙井(沙井地铁站)",
+      "kind": "customer",
+      "lat": 22.63,
+      "lon": 113.852,
+      "local_x_m": -8019.07,
+      "local_y_m": 8905.559,
+      "scenario_x": -13825.184637865088,
+      "scenario_y": 15353.526979747256
+    },
+    {
+      "id": 20,
+      "name": "灵芝(灵芝公园)",
+      "kind": "customer",
+      "lat": 22.571,
+      "lon": 113.905,
+      "local_x_m": -2570.215,
+      "local_y_m": 2337.709,
+      "scenario_x": -4431.148922393496,
+      "scenario_y": 4030.300832183893
+    },
+    {
+      "id": 21,
+      "name": "兴东(兴东地铁站)",
+      "kind": "customer",
+      "lat": 22.58,
+      "lon": 113.922,
+      "local_x_m": -822.469,
+      "local_y_m": 3339.585,
+      "scenario_x": -1417.9676551673292,
+      "scenario_y": 5757.57261740488
+    },
+    {
+      "id": 22,
+      "name": "塘朗(塘朗地铁站)",
+      "kind": "customer",
+      "lat": 22.595,
+      "lon": 113.978,
+      "local_x_m": 4934.812,
+      "local_y_m": 5009.377,
+      "scenario_x": 8507.805930991382,
+      "scenario_y": 8636.35892610766
+    },
+    {
+      "id": 23,
+      "name": "深圳大学城",
+      "kind": "customer",
+      "lat": 22.59,
+      "lon": 113.97,
+      "local_x_m": 4112.343,
+      "local_y_m": 4452.78,
+      "scenario_x": 7089.838275826572,
+      "scenario_y": 7676.763489873628
+    },
+    {
+      "id": 24,
+      "name": "深圳湾口岸/人才公园",
+      "kind": "customer",
+      "lat": 22.512,
+      "lon": 113.932,
+      "local_x_m": 205.617,
+      "local_y_m": -4230.141,
+      "scenario_x": 354.49191379057294,
+      "scenario_y": -7292.92531538015
+    },
+    {
+      "id": 25,
+      "name": "碧海湾",
+      "kind": "customer",
+      "lat": 22.56,
+      "lon": 113.855,
+      "local_x_m": -7710.644,
+      "local_y_m": 1113.195,
+      "scenario_x": -13293.44676717797,
+      "scenario_y": 1919.190872468066
+    },
+    {
+      "id": 26,
+      "name": "南油(南油地铁站)",
+      "kind": "customer",
+      "lat": 22.507,
+      "lon": 113.927,
+      "local_x_m": -308.426,
+      "local_y_m": -4786.738,
+      "scenario_x": -531.7378706871187,
+      "scenario_y": -8252.520751614184
+    }
+  ]
+}

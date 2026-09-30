@@ -1,0 +1,18 @@
+{
+  "tag": "od_06_20",
+  "origin_ll": [
+    22.586,
+    113.965
+  ],
+  "destination_ll": [
+    22.571,
+    113.905
+  ],
+  "amap_status": "1",
+  "amap_infocode": "10000",
+  "amap_info": "OK",
+  "distance_m": 7496.0,
+  "duration_s": 2524.0,
+  "attempts": 1,
+  "fetched_at": "2026-09-23T11:27:57.963429+00:00"
+}
